@@ -1,0 +1,19 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: yellow;
+}
+
+.h1{
+    color: red;
+    font-family: Arial;
+}
+
+.h3{
+    color: red;
+    font-family: Arial;
+}
