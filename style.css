@@ -12,10 +12,64 @@
     color: red;
     font-family: Arial;
     padding: 5px 0 5px 15px;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,   
+    -1px 1px 0 black,   
+    1px 1px 0 black;  
 }
 
 .h3{
     color: red;
     font-family: Arial;
     padding: 0 0 5px 15px;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,   
+    -1px 1px 0 black,   
+    1px 1px 0 black;  
+}
+
+.link-cabeçalho{
+    text-decoration: none;
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,   
+    -1px 1px 0 black,   
+    1px 1px 0 black;  
+}
+
+#navegação{
+    text-align: right;
+    padding: 0 15px 5px 0;
+}
+
+.section1{
+    color: white;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,   
+    -1px 1px 0 black,   
+    1px 1px 0 black; 
+    font-family: Arial;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.h2-section1{
+    font-size: 40px;
+}
+.p1-section1{
+    font-size: 25px;
+}
+.p2-section1{
+    font-size: 20px;
 }
