@@ -98,7 +98,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-column-gap: 10px;
     margin: auto;
-    padding: 5px;
+    padding: 5px 40px 0 40px;
 }
 
 .subgrid{
@@ -109,4 +109,19 @@
 
 .imgproduto{
     max-width: 40%;
+}
+@media screen and (max-width: 1024px){
+
+
+    .imgproduto{
+        max-width: 60%;
+    }
+
+    .subgrid{
+        margin: auto;
+        padding: 10%;
+        max-width: 30%;
+        max-height: 60%;
+        background-color: white;
+    }
 }
